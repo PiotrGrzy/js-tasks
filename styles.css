@@ -1,0 +1,26 @@
+body {
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fadeIn {
+    animation: show 1s .2s forwards;
+}
+
+.animate-this {
+    padding: 1rem;
+    background-color: orangered;
+    opacity: 0;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
